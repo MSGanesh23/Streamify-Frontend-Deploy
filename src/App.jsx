@@ -14,7 +14,7 @@ import PaymentPage from "./payment";
 
 const App = () => {
   return (
-    <Router basename="/frontapp1">
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/signin" element={<Signin />} />
